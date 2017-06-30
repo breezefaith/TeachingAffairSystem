@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "struts-2.1.dtd" >
+<struts>
+	<package extends="struts-default" name="/TeachingAffairSystem"
+		namespace="/">
+		<action name="TestAction" class="teaching.affair.system.action.TestAction">
+			<result name="success" type="redirect">
+				<param name="location">/testMain.jsp</param>
+				<param name="parse">true</param>
+			</result>
+		</action>
+		<action name="LoginAction" class="teaching.affair.system.action.LoginAction">
+			<result name="manager">/manager.jsp</result>
+			<result name="teacher">/teacher.jsp</result>
+			<result name="student">/student.jsp</result>
+			<result name="success">/hello.jsp</result>
+			<result name="input" type="redirect">
+				<param name="location">/login.jsp</param>
+				<param name="parse">true</param>
+			</result>
+		</action>
+		<action name="ManagerAction" class="teaching.affair.system.action.ManagerAction">
+			<result type="plainText" name="success">
+				<param name="location">/teacherResult.html</param>
+			</result>
+			<result name="error" type="plainText">/error.jsp</result>
+
+		</action>
+		<action name="StudentAction" class="teaching.affair.system.action.StudentAction">
+			<result type="plainText" name="success">
+				<param name="location">/teacher.html</param>
+			</result>
+		</action>
+		<action name="TeacherAction" class="teaching.affair.system.action.TeacherAction">
+			<result type="plainText" name="success">
+				<param name="location">/teacher.html</param>
+			</result>
+		</action>
+	</package>
+</struts>

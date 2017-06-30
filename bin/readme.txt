@@ -1,0 +1,2 @@
+teaching_affair_manageent_system.sql为数据库文件，需导入到MySQL中
+TeachingAffairSystem.war部署到Tomcat服务器中即可

@@ -1,0 +1,21 @@
+.td-name{
+	text-align:right;
+}
+#login-table{
+	margin: 50px auto;
+	border: 1px solid;
+	padding: 10px 10px 10px 10px;
+	border-spacing: 10px;
+}
+#login-div{
+	margin: 100px auto;
+	border: 1px solid;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+	width: 600px;
+	height: 400px;
+}
+#submit-button{
+	margin-left:40px;
+	margin-right: 50px;
+}

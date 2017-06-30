@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+	<table name="current_semester" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="assigned"></generator>
+			<key-column name="semester_no" jdbc-type="int" property="semesterNo"
+				type="integer" />
+		</primary-key>
+	</table>
+	<table name="select_course" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="identity"></generator>
+
+
+
+
+
+			<key-column name="select_course_no" />
+		</primary-key>
+	</table>
+	<table name="course" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="manager" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="schedule" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="semester_course_shedule" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="semester_course" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="semester" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="student" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="teacher" catalog="teaching_affair_management_system">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+</hibernate-reverse-engineering>

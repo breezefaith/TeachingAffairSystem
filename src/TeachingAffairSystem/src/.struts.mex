@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="/TeachingAffairSystem" location="225,10" size="331,290">
+    <action name="TestAction" location="20,62" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="testMain.jsp" />
+      </result>
+    </action>
+    <action name="LoginAction" location="20,146" size="150,125">
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="login.jsp" />
+      </result>
+      <result name="manager">
+        <resourceEdge source="manager" routing="0" target="manager.jsp" />
+      </result>
+      <result name="teacher">
+        <resourceEdge source="teacher" routing="0" target="teacher.jsp" />
+      </result>
+      <result name="student">
+        <resourceEdge source="student" routing="0" target="student.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="hello.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="testMain.jsp" path="/testMain.jsp" location="10,52" size="150,55" />
+  <webResource name="hello.jsp" path="/hello.jsp" location="570,157" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="290,297" size="150,55" />
+  <webResource name="manager.jsp" path="/manager.jsp" location="50,200" size="150,55" />
+  <webResource name="teacher.jsp" path="/teacher.jsp" location="50,350" size="150,55" />
+  <webResource name="student.jsp" path="/student.jsp" location="500,350" size="150,55" />
+</Struts2Diagram>
+

@@ -1,0 +1,20 @@
+<%@ page language="java" import="java.util.*" pageEncoding="GBK"%>
+<%
+%>
+[{
+		"teacherNo":"t1",
+		"teacherName":"张三",
+		"sex":"男",
+		"teacherAcademy":"计算机学院",
+		"teacherTitle":"副教授",
+		"teacherEmail":"zhangsan@njupt.edu.cn",
+		"password":"21218cca77804d2ba1922c33e0151105"
+	},{
+		"teacherNo":"t2",
+		"teacherName":"张三",
+		"sex":"女",
+		"teacherAcademy":"理学院",
+		"teacherTitle":"教授",
+		"teacherEmail":"sanzhangkapai@njupt.edu.cn",
+		"password":"21218cca77804d2ba1922c33e0151105"
+	}]

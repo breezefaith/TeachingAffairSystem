@@ -1,0 +1,111 @@
+html,body{
+　　
+}
+div{
+	/*border: 1px solid #05FE7E;*/
+	margin-bottom: 10px;
+	font-family:"Microsoft YaHei";
+}
+table{
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 0px;
+	/*border: 1px solid #00FFF2;*/
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+tr{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+th{
+	border:1px solid #00FFF2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+td{
+	border:1px solid #00FFF2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+button{
+	font-family:"Microsoft YaHei"; 
+}
+a{
+	cursor: pointer;
+}
+#div-header{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #05FE7E;
+}
+#div-header-left{
+	border: 0;
+	float: left;
+	width: 49%;
+}
+#div-header-right{
+	border: 0;
+	float: left;
+	width: 50.5%;
+	text-align: right;
+	/*height: 100%;*/
+}
+#div-main{
+	height: 85%;
+	width: 100%;
+	min-height: 800px;
+	/*border-color: red;*/
+	border: 1px solid #05FE7E;
+	overflow: hidden;
+}
+#div-main-left{
+	float: left;
+	width: 14%;
+	height: 100%;
+	border: 1px solid #05FE7E;
+	/*min-height: 800px;
+	overflow: hidden;*/
+	/*保证左右div高度相同*/
+	padding-bottom:100%;
+	margin-bottom: -100%;
+}
+#div-main-left table{
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
+#div-main-right{
+	border: 0;
+	float: left;
+	width: 84%;
+	height: 100%;
+	margin-left: 10px;
+	margin-top:10px;
+	border: 1px solid #05FE7E;
+	/*保证左右div高度相同*/
+	padding-bottom:100%;
+	margin-bottom: -100%;
+}
+#div-footer{
+	height: 30px;
+	width: 100%;
+	border: 1px solid #05FE7E;
+	/*border-color: red;*/
+}
+#table-teacher-information{
+
+}
+#table-semester-information{
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
+.table-foundation-button{
+	color: #8D9DFC
+}
+.span-table-title{
+	float: left;
+	font-size: 1.2em;
+	font-weight: bold;
+}
